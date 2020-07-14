@@ -1,2 +1,4 @@
 I will use this file for merging.
 Can also used in branching.
+Adding new line for commit 
+
