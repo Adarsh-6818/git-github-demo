@@ -1,0 +1,15 @@
+h1 {
+    background-color: beige ;
+    scale: 21px, 55 px ;
+    padding: 25%;     
+}
+ body{
+     background-color: blueviolet;
+     height: 55px;
+     border: chocolate;
+ }
+title{
+    block-size: 2%;
+    text-underline-position: below;
+    font-style: italic;
+} 
