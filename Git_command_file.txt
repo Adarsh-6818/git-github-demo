@@ -89,3 +89,51 @@ $ ^C
 
 HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
 $
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ code Git_command_file.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add .
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ ls
+File.txt  Git_command_file.txt  Index.html  package.json  README.md  Style.css
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add *.*
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add "Git_commant_file"
+fatal: pathspec 'Git_commant_file' did not match any files
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add "Git_commant_file.txt"
+fatal: pathspec 'Git_commant_file.txt' did not match any files
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add "Git_command_file.txt"
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git commit -m "Create new commad file Git_command_file.txt"
+[master a1e8550] Create new commad file Git_command_file.txt
+ 1 file changed, 91 insertions(+)
+ create mode 100644 Git_command_file.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git reflog
+a1e8550 (HEAD -> master) HEAD@{0}: commit: Create new commad file Git_command_file.txt
+610be8b HEAD@{1}: commit: add new line
+3429de0 HEAD@{2}: commit: Create new text file File.txt
+fdc1ab5 HEAD@{3}: commit: Create css file Style.css
+282cdce HEAD@{4}: commit (initial): Create File.txt in master
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git log --oneline
+a1e8550 (HEAD -> master) Create new commad file Git_command_file.txt
+610be8b add new line
+3429de0 Create new text file File.txt
+fdc1ab5 Create css file Style.css
+282cdce Create File.txt in master
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ code Git_command_file.txt
