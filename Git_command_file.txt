@@ -137,3 +137,48 @@ fdc1ab5 Create css file Style.css
 
 HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
 $ code Git_command_file.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add .
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git commit -m "Text increment Git_command_file.txt"
+[master 7b2dc1e] Text increment Git_command_file.txt
+ 1 file changed, 48 insertions(+)
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git diff
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git remote add origin https://github.com/Adarsh-6818/git-github-demo.git
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git push -u origin master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (20/20), 2.80 KiB | 717.00 KiB/s, done.
+Total 20 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/Adarsh-6818/git-github-demo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ code Git_command_file.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$
