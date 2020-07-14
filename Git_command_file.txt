@@ -1,0 +1,91 @@
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ code File.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add .
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git commit -m "Create new text file File.txt"
+[master 3429de0] Create new text file File.txt
+ 1 file changed, 2 insertions(+)
+ create mode 100644 File.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ code File.txt
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git commit -m "add new line"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   File.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ ad
+bash: ad: command not found
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git add .
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   File.txt
+
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git commit -m "add new line"
+[master 610be8b] add new line
+ 1 file changed, 2 insertions(+)
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git log
+commit 610be8b3b33723338e5743a3e19793355d634f04 (HEAD -> master)
+Author: Adarsh Vishwakarma <adarsh.vishwakarma@zensar.com>
+Date:   Tue Jul 14 22:19:39 2020 +0530
+
+    add new line
+
+commit 3429de05ef05f0f06773589f1d4ac11399fa58b0
+Author: Adarsh Vishwakarma <adarsh.vishwakarma@zensar.com>
+Date:   Tue Jul 14 22:17:28 2020 +0530
+
+    Create new text file File.txt
+
+commit fdc1ab514ce0372d6580e9b36c7a3e54659deaa9
+Author: Adarsh Vishwakarma <adarsh.vishwakarma@zensar.com>
+Date:   Tue Jul 14 22:07:48 2020 +0530
+
+    Create css file Style.css
+
+commit 282cdce7cc01aaca302558d8187ce8f864e4e473
+Author: Adarsh Vishwakarma <adarsh.vishwakarma@zensar.com>
+Date:   Tue Jul 14 17:11:28 2020 +0530
+
+    Create File.txt in master
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git log -oneline
+fatal: unrecognized argument: -oneline
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ git log --oneline
+610be8b (HEAD -> master) add new line
+3429de0 Create new text file File.txt
+fdc1ab5 Create css file Style.css
+282cdce Create File.txt in master
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ ^C
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$ ^C
+
+HOME@LAPTOP-U8A9S7DN MINGW64 /f/Microsoft Full Stack/Git_config (master)
+$
